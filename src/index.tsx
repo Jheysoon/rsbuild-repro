@@ -18,6 +18,8 @@ import "slick-carousel/slick/slick.css";
 
 const rootEl = document.getElementById("root");
 
+// start to disable react-scan to make HMR work
+
 const isEnableReactScan = false;
 
 if (isEnableReactScan) {
@@ -25,6 +27,8 @@ if (isEnableReactScan) {
     enabled: true,
   });
 }
+
+// end
 
 if (rootEl) {
   const root = ReactDOM.createRoot(rootEl);
