@@ -1,0 +1,9 @@
+/public
+/build
+/node_modules
+/scripts
+rsbuild.config.ts
+serviceWorker.js
+config-overrides.js
+__mocks__
+__tests__

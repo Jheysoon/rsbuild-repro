@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "^react-native$": ["react-native-web"],
+      "native-base": ["migrations/lib/native-base"],
+      "rn-placeholder": ["migrations/lib/rn-placeholder"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
